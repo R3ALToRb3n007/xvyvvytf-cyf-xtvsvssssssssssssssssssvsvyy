@@ -142,4 +142,4 @@ hbot.on('message', (message) => {
 });
 
 //Login-Token hier einfügen
-hbot.login('NjM3NzQyNjM1MDQ1NjE3Njc0.XbSnFA.FEdFDCUT3myk5FtRhuAorM_CEqg');
+client.login(process.env.BOT_TOKEN);
